@@ -3,13 +3,22 @@ using System.Collections;
 
 public class rigidscript : MonoBehaviour {
 
-	// Use this for initialization
 	void Start () {
-	
 	}
 	
-	// Update is called once per frame
-	void Update () {
-	
+	void Update () {	
+		if (Input.GetKey (KeyCode.UpArrow)) {
+			transform.rigidbody.AddForce (0, 0, 1);
+		}
+		if (Input.GetKey (KeyCode.DownArrow)) {
+			transform.rigidbody.AddForce (0, 0, -1);
+		}
+		if (Input.GetKey (KeyCode.RightArrow)) {
+			transform.rigidbody.AddForce (1, 0, 0);
+		}
+		if (Input.GetKey (KeyCode.LeftArrow)) {
+			transform.rigidbody.AddForce (-1, 0, 0);
+		}
+
 	}
 }
