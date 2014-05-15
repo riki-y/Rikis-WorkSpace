@@ -12,7 +12,7 @@ public class animation : MonoBehaviour {
 		clip.SetCurve ("", typeof(Transform), "localPosition.z", curve);
 		clip.wrapMode = WrapMode.Loop;
 		animation.AddClip (clip, "clip1");
-		animation.Play ("Clip1");
+		animation.Play ("clip1");
 	}
 	
 	void Update () {
