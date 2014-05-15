@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/animation.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/enterKeyObjectStop.cs">
     <Files>
-      <File FileName="Assets/animation.cs" Line="19" Column="3" />
+      <File FileName="Assets/animation.cs" Line="15" Column="21" />
+      <File FileName="Assets/enterKeyObjectStop.cs" Line="13" Column="33" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
